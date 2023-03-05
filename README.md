@@ -2,7 +2,7 @@
 Python script to convert any image into a custom sized pixel-art version, where the pixels are equivalent to LEGO 1x1 blocks, and colours are matched to the nearest available lego colour. The script gives you a colour map and a block count by colour, which you can the order.
 
 ## Directory contents:
-1) <b>colors.csv</b>: The dataset of lego colours. Includes the ID of the colour (acording to Lego's notation), That is what you would you would use to order something in that colour. Colours also have names (in the respective column). Then there is a column for the colour value in hex RGB, and finally a boolean value to denote if the lego items in this colour are transparent or solid.
+1) <b>colors.csv</b>: The dataset of <a href="https://www.kaggle.com/datasets/rtatman/lego-database">lego colours</a> from Kaggle. Includes the ID of the colour (acording to Lego's notation), That is what you would you would use to order something in that colour. Colours also have names (in the respective column). Then there is a column for the colour value in hex RGB, and finally a boolean value to denote if the lego items in this colour are transparent or solid.
 2) <b>Lego Pixel Art Generator v.2.ipynb</b>: This is the latest version of the script (in an Jupyter notebook format). Scrol down for info on how to use.
 3) <b>lego pixels.pdf</b>: This is the result of the script. Yoiu can use the resulting pdf as a guide to help you construct the image (once you have all the necessary bricks), and you can also use the table at the bottom of the page as a shopping list. The table tells you how many 1x1 Lego bricks of each colour (lego reference ID) you need.
 
